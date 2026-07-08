@@ -7,6 +7,11 @@ This project was developed by following a complete product management framework,
 Instead of assuming solutions, the case study follows a research-driven approach to understand user behavior, identify the actual friction points, validate insights, and recommend scalable product improvements backed by measurable business metrics.
 
 ---
+## 📽️ Interactive Product Deck
+
+👉 [View the Complete Interactive Product Deck](https://canva.link/r5cbon1bw7anb1m)
+
+*Includes embedded videos.*
 
 # 📖 Background
 
