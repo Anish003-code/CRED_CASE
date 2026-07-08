@@ -9,7 +9,7 @@ Instead of assuming solutions, the case study follows a research-driven approach
 ---
 ## 📽️ Interactive Product Deck
 
-👉 [View the Complete Interactive Product Deck](https://canva.link/r5cbon1bw7anb1m)
+👉 [View the Complete Interactive Product Deck](https://canva.link/rjk0ekvputf41sl)
 
 *Includes embedded videos.*
 
