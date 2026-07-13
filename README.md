@@ -1,346 +1,165 @@
 # 🚀 CRED Product Case Study: Increasing Mid-Month User Engagement
 
-> A comprehensive Product Management case study focused on solving one of CRED's biggest engagement challenges—encouraging users to return to the platform beyond their monthly credit card bill payments.
-
-This project was developed by following a complete product management framework, beginning with problem identification and progressing through market research, user interviews, competitive analysis, journey mapping, solution design, and success measurement.
-
-Instead of assuming solutions, the case study follows a research-driven approach to understand user behavior, identify the actual friction points, validate insights, and recommend scalable product improvements backed by measurable business metrics.
+> A research-driven Product Management case study proposing data-backed solutions to increase CRED's mid-month user engagement — grounded in user interviews, competitive analysis, journey mapping, and measurable success metrics.
 
 ---
+
+## 📌 Executive Summary
+
+**Problem:** CRED is used almost exclusively for monthly bill payments — users pay, collect rewards, and exit. Premium features (Garage, Mint, Store, Travel) go undiscovered, limiting cross-feature adoption and long-term customer lifetime value.
+
+**Insight:** Unlike Google Pay or PhonePe, which fit naturally into daily transactions, CRED has no recurring reason to open the app between bill cycles — reward fatigue, a cluttered homepage, and poor feature discoverability compound the problem.
+
+**Solution:** Two product directions — **CRED One Card** (automatic reward-optimized card selection across a user's linked cards) and **CRED Lite** (a stripped-down, two-action interface for users who just want to pay fast) — designed to pull users back mid-month without diluting CRED's premium positioning.
+
+**Success measure:** A new North Star Metric, **Monthly Financially Engaged Users (MFEU)** — users who open CRED on a non-bill day and complete a meaningful financial action — replacing simple app-open counts with a metric tied to actual value delivered.
+
+📄 Full research, personas, and journey maps: see [`CRED CASE.pdf`](./CRED%20CASE.pdf) · 🎥 [Interactive deck with video walkthrough](https://canva.link/rjk0ekvputf41sl)
+
+---
+
 ## 📽️ Interactive Product Deck
 
-👉 [View the Complete Interactive Product Deck](https://canva.link/rjk0ekvputf41sl)
+👉 [View the Complete Interactive Product Deck](https://canva.link/rjk0ekvputf41sl) *(includes embedded videos)*
 
-*Includes embedded videos.*
-
-# 📖 Background
-
-CRED has successfully established itself as India's premium credit card payment platform by rewarding users for timely bill payments.
-
-Over the years, however, CRED has expanded far beyond bill payments by introducing products such as:
-
-- CRED Pay
-- UPI Payments
-- CRED Store
-- CRED Garage
-- CRED Mint
-- Travel
-- Shopping
-- Financial Services
-
-Despite offering an extensive ecosystem, a significant percentage of users continue to use CRED almost exclusively for paying their monthly credit card bills.
-
-Most users:
-
-- Receive a payment reminder
-- Open the app
-- Complete the payment
-- Collect rewards
-- Exit immediately
-
-As a result, many of CRED's premium offerings remain underutilized, reducing customer lifetime value, cross-feature adoption, and long-term engagement.
-
-This case study explores why this happens and proposes solutions that encourage users to naturally return to the app throughout the month rather than only on bill due dates.
+If the link is unavailable, the full static deck is in this repo as [`CRED CASE.pdf`](./CRED%20CASE.pdf).
 
 ---
 
-# 🎯 Problem Statement
+## 📖 Background
 
-How might we increase meaningful user engagement on CRED during non-bill days while maintaining the platform's premium experience?
+CRED has established itself as India's premium credit card payment platform by rewarding users for timely bill payments. Over time it has expanded into CRED Pay, UPI Payments, CRED Store, CRED Garage, CRED Mint, Travel, Shopping, and Financial Services — yet a significant share of users still treat CRED purely as a bill-payment utility:
 
-The challenge isn't simply increasing app opens.
+**Receive reminder → Open app → Pay → Collect reward → Exit.**
 
-The real objective is encouraging users to interact with valuable financial features throughout the month, thereby transforming CRED from a **monthly utility** into a **daily financial companion.**
-
----
-
-# 🎯 Objectives
-
-The project aims to answer the following questions:
-
-- Why do users stop using CRED after completing their bill payment?
-- Which friction points prevent users from exploring the platform?
-- Which features remain underutilized?
-- What motivates users to return to financial applications?
-- Which product interventions could improve long-term engagement?
-- How should success be measured after launching new features?
+This case study investigates *why* that happens and proposes interventions that turn CRED into a daily financial companion rather than a monthly utility — without compromising its premium feel.
 
 ---
 
-# 🔬 Product Thinking Framework
+## 🎯 Problem Statement
 
-The project follows a structured Product Management workflow.
+**How might we increase meaningful user engagement on CRED during non-bill days while maintaining the platform's premium experience?**
+
+The objective isn't more app opens — it's getting users to interact with valuable financial features throughout the month.
+
+---
+
+## 🔬 Product Thinking Framework
 
 ```
-Problem Identification
-        │
-        ▼
-Market Research
-        │
-        ▼
-Competitive Analysis
-        │
-        ▼
-User Research
-        │
-        ▼
-Persona Creation
-        │
-        ▼
-Journey Mapping
-        │
-        ▼
-Pain Point Prioritization
-        │
-        ▼
-Solution Ideation
-        │
-        ▼
-Success Metrics
+Problem Identification → Market Research → Competitive Analysis → User Research
+        → Persona Creation → Journey Mapping → Pain Point Prioritization
+        → Solution Ideation → Success Metrics
 ```
 
-Rather than jumping directly to solutions, every recommendation is derived from research findings.
+Every recommendation below traces back to a research finding, not an assumption.
 
 ---
 
-# 🔍 Research Methodology
+## 🔍 Research Methodology
 
-The recommendations presented in this project are supported through both qualitative and quantitative research.
+**Primary research:** 12 semi-structured user interviews, 30 survey responses, and follow-up discussions with regular CRED users — covering usage patterns, motivations, feature awareness, reward perception, and payment-journey friction.
 
-### Primary Research
-
-- 12 Semi-structured User Interviews
-- 30 Survey Responses
-- Discussions with regular CRED users
-
-The objective was to understand:
-
-- Daily usage patterns
-- User motivations
-- Feature awareness
-- Reward perception
-- Pain points during the payment journey
+**Secondary research:** Play Store / App Store reviews, Reddit and community forum discussions, and existing product teardown to validate recurring themes across a wider base.
 
 ---
 
-### Secondary Research
+## 📊 Key Research Insights
 
-Additional insights were gathered through:
-
-- Play Store Reviews
-- App Store Reviews
-- Reddit Discussions
-- Community Forums
-- Existing Product Analysis
-
-This helped validate recurring themes across a larger user base.
+| # | Insight |
+|---|---|
+| 1 | Users associate CRED almost entirely with bill payment, despite its broader ecosystem |
+| 2 | Rewards have shifted from meaningful cashback to promotional coupons — post-payment excitement has dropped |
+| 3 | Garage, Mint, Store, and Travel are buried and poorly discoverable |
+| 4 | The homepage's banner/promotion density creates cognitive overload instead of exploration |
+| 5 | Unlike Google Pay or PhonePe, CRED has no natural recurring-use trigger between bill cycles |
 
 ---
 
-# 📊 Key Research Insights
+## 🌍 Competitive Landscape (illustrative)
 
-Several consistent patterns emerged during research.
+| Dimension | CRED | Google Pay / PhonePe |
+|---|---|---|
+| Primary use trigger | Monthly bill due date | Daily transactions (UPI, recharges, bills) |
+| Session frequency driver | Reminder-based | Habit-based |
+| Engagement between "core" actions | Minimal | High (P2P, scan-and-pay, recharges) |
+| Reward perception | Declining (coupon fatigue) | Cashback tied to frequent, small transactions |
 
-### 1. CRED is viewed primarily as a bill payment app
-
-Although CRED provides multiple financial products, users associate the platform almost entirely with paying credit card bills.
-
----
-
-### 2. Rewards have lost perceived value
-
-Many users feel that rewards have gradually shifted from meaningful cashback to promotional coupons with limited usefulness.
-
-This significantly reduces excitement after payment completion.
+This framing is qualitative, based on the positioning described in research — see the deck for the full competitive teardown with sourced detail.
 
 ---
 
-### 3. Poor Feature Discoverability
+## 👥 User Personas & Journey
 
-Users are often unaware of services like:
+Personas were built around background, goals, motivations, financial habits, and product expectations — used to validate that proposed solutions solve real friction, not hypothetical problems. The journey map below shows engagement dropping sharply right after payment completion — the core gap this case study addresses.
 
-- Garage
-- Mint
-- Store
-- Travel
-
-because they are buried beneath a content-heavy interface.
+![User persona snapshot](./assets/persona_snapshot.png)
+![User journey map](./assets/user_journey_map.png)
 
 ---
 
-### 4. Interface feels cluttered
+## 💡 Proposed Solution 1 — CRED One Card
 
-Users frequently mentioned that the homepage contains too many banners, promotions, and competing actions.
+**Vision:** One intelligent payment card that automatically selects the best linked credit card for every purchase, so users don't have to track which card offers the highest reward.
 
-Instead of encouraging exploration, this creates cognitive overload.
+**Benefits:** Single card for all payments · automatic reward optimization · unified transaction history · better spending insights · higher daily usage.
 
----
+![CRED One Card solution overview](./assets/solution_cred_onecard.png)
 
-### 5. No recurring engagement loop
+## 💡 Proposed Solution 2 — CRED Lite
 
-Unlike applications such as Google Pay or PhonePe that naturally fit into everyday transactions, CRED lacks a compelling reason for users to return between bill payment cycles.
+**Vision:** A lightweight CRED experience stripped to two actions — **Pay** and **Bill** — for users who want speed over discovery.
 
----
-
-# 👥 User Personas
-
-To better understand different user behaviors, detailed personas were created representing CRED's target audience.
-
-Each persona includes:
-
-- Background
-- Goals
-- Motivations
-- Pain Points
-- Financial Habits
-- Lifestyle
-- Product Expectations
-
-These personas helped ensure that the proposed solutions addressed real user needs rather than hypothetical assumptions.
+**Benefits:** Faster navigation · lower cognitive load · improved accessibility · higher satisfaction for a "just let me pay" segment.
 
 ---
 
-# 🗺 User Journey Mapping
+## ⚠️ Risks & Open Questions
 
-The complete user journey was mapped from the moment a payment reminder is received until the reward collection experience.
+Being upfront about what these solutions assume and where they could break:
 
-Every interaction was analyzed to identify:
-
-- Emotional state
-- User expectations
-- Friction points
-- Drop-off opportunities
-- Improvement opportunities
-
-The journey clearly revealed that engagement sharply declines immediately after payment completion.
+- **CRED One Card** depends on deep integration with competing banks' card networks and reward systems — issuer partnerships may not be commercially or technically feasible at CRED's current scale, and this needs validation before build investment.
+- **CRED Lite** risks cannibalizing engagement with the very features (Garage, Mint, Store) this case study is trying to promote — a "fast lane" could reduce, not increase, exposure to underused products. Needs a clear cohort strategy (who defaults to Lite vs. full CRED).
+- **MFEU as North Star** assumes "meaningful financial action" can be defined and tracked consistently across features — this definition needs product + data alignment before it can be reported reliably.
+- Reward-fatigue findings are based on 12 interviews and 30 survey responses — directionally useful, but a larger sample would be needed before shipping against these conclusions.
 
 ---
 
-# 💡 Proposed Solution 1 — CRED One Card
+## ⭐ Success Measurement
 
-## Vision
+**North Star Metric — Monthly Financially Engaged Users (MFEU):** a user is financially engaged if they open CRED on a non-bill day and complete at least one meaningful financial action. This shifts focus from app opens to actual value delivered.
 
-Create one intelligent payment card that automatically chooses the best linked credit card for every purchase.
+![North Star Metric framework](./assets/north_star_metric.png)
 
-Instead of requiring users to remember which card offers the highest cashback or rewards, CRED performs the optimization automatically.
+**L1 supporting metrics:** mid-month opens per user · cross-feature adoption · CRED UPI share · weekly payment frequency
 
-### Benefits
-
-- One card for every payment
-- Automatic reward optimization
-- Unified transaction history
-- Better spending insights
-- Increased daily usage
-
-This transforms CRED from a monthly payment platform into a smart spending assistant.
+**L2 supporting metrics:** activation rate · feature CTR · conversion rate · user trust score · feature discovery rate
 
 ---
 
-# 💡 Proposed Solution 2 — CRED Lite
+## 🛠 Skills Demonstrated
 
-## Vision
-
-Introduce a lightweight version of CRED focused purely on speed and simplicity.
-
-Instead of presenting users with multiple banners, products, and promotional content, the interface prioritizes only two actions:
-
-- Pay
-- Bill
-
-### Benefits
-
-- Faster navigation
-- Lower cognitive load
-- Improved accessibility
-- Better payment experience
-- Higher user satisfaction
-
-This version targets users who simply want the fastest possible payment experience.
+Product Strategy · User Research · Product Discovery · Problem Framing · Market Research · Competitive Benchmarking · UX Research · User Interviews · Survey Analysis · Persona Development · Journey Mapping · Product Ideation · Prioritization · KPI Design · North Star Metrics · Business Thinking · Data Interpretation · Product Storytelling
 
 ---
 
-# 📈 Success Measurement
-
-Launching new features is only valuable if success can be measured effectively.
-
-The project defines a clear North Star Metric.
-
-## ⭐ North Star Metric
-
-### Monthly Financially Engaged Users (MFEU)
-
-A user is considered financially engaged if they open CRED on a non-bill day and complete at least one meaningful financial action.
-
-This metric shifts focus from simple app opens to valuable engagement.
-
----
-
-## Supporting Metrics
-
-The following L1 metrics help measure progress.
-
-- Mid-month opens per user
-- Cross-feature adoption
-- CRED UPI share
-- Weekly payment frequency
-
-Supporting L2 metrics include:
-
-- Activation Rate
-- Feature CTR
-- Conversion Rate
-- User Trust Score
-- Feature Discovery Rate
-
----
-
-# 🛠 Skills Demonstrated
-
-This project showcases practical Product Management skills including:
-
-- Product Strategy
-- User Research
-- Product Discovery
-- Problem Framing
-- Market Research
-- Competitive Benchmarking
-- UX Research
-- User Interviews
-- Survey Analysis
-- Persona Development
-- Journey Mapping
-- Product Ideation
-- Prioritization
-- KPI Design
-- North Star Metrics
-- Business Thinking
-- Data Interpretation
-- Product Storytelling
-
----
-
-# 📂 Repository Contents
+## 📂 Repository Contents
 
 ```
-📁 Product Deck
-📁 Market Research
-📁 Competitive Analysis
-📁 User Research
-📁 User Personas
-📁 User Journey Mapping
-📁 Solution Design
-📁 North Star Metrics
-📁 Final Presentation
+📄 CRED CASE.pdf        — full product deck (research, personas, journey map, solutions, metrics)
+📄 README.md            — this overview
+📁 assets/              — key deck pages embedded above, for quick skimming without opening the PDF
+📄 LICENSE
 ```
 
 ---
 
-# 🎓 Key Learnings
+## 🎓 Key Learnings
 
-Working on this case study reinforced one important lesson:
+**Successful products aren't built by adding more features — they're built by deeply understanding user behavior and solving the right problems.**
 
-**Successful products aren't built by adding more features—they're built by deeply understanding user behavior and solving the right problems.**
+This project reflects how product managers work in practice: validate assumptions through research, prioritize problems using evidence, design user-centric solutions, and define measurable outcomes to evaluate success — rather than proposing features first and justifying them after.
 
-Rather than proposing random feature ideas, this project focuses on identifying the underlying reasons behind low engagement and designing solutions that align both user needs and business objectives.
+---
 
-The approach reflects how product managers think in real-world organizations: validate assumptions through research, prioritize problems using evidence, design user-centric solutions, and define measurable outcomes to evaluate success.
+**Author:** Anish · [GitHub](https://github.com/Anish003-code)
