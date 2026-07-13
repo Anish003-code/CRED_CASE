@@ -93,8 +93,8 @@ This framing is qualitative, based on the positioning described in research — 
 
 Personas were built around background, goals, motivations, financial habits, and product expectations — used to validate that proposed solutions solve real friction, not hypothetical problems. The journey map below shows engagement dropping sharply right after payment completion — the core gap this case study addresses.
 
-![User persona snapshot](./assets/persona_snapshot.png)
-![User journey map](./assets/user_journey_map.png)
+![User persona snapshot](image/User_Persona_1.png)
+![User journey map](./image/User_journey.png)
 
 ---
 
@@ -104,7 +104,7 @@ Personas were built around background, goals, motivations, financial habits, and
 
 **Benefits:** Single card for all payments · automatic reward optimization · unified transaction history · better spending insights · higher daily usage.
 
-![CRED One Card solution overview](./assets/solution_cred_onecard.png)
+![CRED One Card solution overview](./image/Sol_1.png)
 
 ## 💡 Proposed Solution 2 — CRED Lite
 
@@ -129,7 +129,7 @@ Being upfront about what these solutions assume and where they could break:
 
 **North Star Metric — Monthly Financially Engaged Users (MFEU):** a user is financially engaged if they open CRED on a non-bill day and complete at least one meaningful financial action. This shifts focus from app opens to actual value delivered.
 
-![North Star Metric framework](./assets/north_star_metric.png)
+![North Star Metric framework](./assets/NorthStar_Metric_and_L1.png)
 
 **L1 supporting metrics:** mid-month opens per user · cross-feature adoption · CRED UPI share · weekly payment frequency
 
@@ -148,8 +148,7 @@ Product Strategy · User Research · Product Discovery · Problem Framing · Mar
 ```
 📄 CRED CASE.pdf        — full product deck (research, personas, journey map, solutions, metrics)
 📄 README.md            — this overview
-📁 assets/              — key deck pages embedded above, for quick skimming without opening the PDF
-📄 LICENSE
+📁 image/              — key deck pages embedded above, for quick skimming without opening the PDF
 ```
 
 ---
@@ -162,4 +161,4 @@ This project reflects how product managers work in practice: validate assumption
 
 ---
 
-**Author:** Anish · [GitHub](https://github.com/Anish003-code)
+**Author:** Anish 
