@@ -111,7 +111,7 @@ Personas were built around background, goals, motivations, financial habits, and
 **Vision:** A lightweight CRED experience stripped to two actions — **Pay** and **Bill** — for users who want speed over discovery.
 
 **Benefits:** Faster navigation · lower cognitive load · improved accessibility · higher satisfaction for a "just let me pay" segment.
-
+![CRED LITE](./image/Cred_lite.png)
 ---
 
 ## ⚠️ Risks & Open Questions
@@ -129,7 +129,7 @@ Being upfront about what these solutions assume and where they could break:
 
 **North Star Metric — Monthly Financially Engaged Users (MFEU):** a user is financially engaged if they open CRED on a non-bill day and complete at least one meaningful financial action. This shifts focus from app opens to actual value delivered.
 
-![North Star Metric framework](./assets/NorthStar_Metric_and_L1.png)
+![North Star Metric framework](./image/NorthStar_Metric_and_L1.png)
 
 **L1 supporting metrics:** mid-month opens per user · cross-feature adoption · CRED UPI share · weekly payment frequency
 
